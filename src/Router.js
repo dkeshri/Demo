@@ -1,5 +1,5 @@
 import React, { Suspense, lazy } from "react"
-import { HashRouter as Router, Switch, Route } from "react-router-dom"
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 import { history } from "./history"
 import { connect } from "react-redux"
 import { Redirect } from "react-router-dom"
@@ -216,7 +216,7 @@ class AppRouter extends React.Component {
   render() {
     return (
       // Set the directory path if you are deploying in sub-folder
-      <Router history={history}>
+      <Router basename='/Demo' history={history}>
         <Switch>
           <AppRoute exact path="/" component={analyticsDashboard} />
           <AppRoute
