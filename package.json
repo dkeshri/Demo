@@ -1,5 +1,5 @@
 {
-  "hompage":"http://dkeshri.github.io/Demo",
+  "homepage": "http://dkeshri.github.io/Demo",
   "name": "vuexy-react-admin-dashboard",
   "version": "1.0.0",
   "private": true,
@@ -90,8 +90,8 @@
     "build": "react-app-rewired build",
     "test": "react-app-rewired test",
     "eject": "react-app-rewired eject",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -113,6 +113,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "homepage": ""
+  }
 }
